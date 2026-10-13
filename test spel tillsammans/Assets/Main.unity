@@ -231,6 +231,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &107502039
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,6 +555,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of 59d19b3 (objects)
 --- !u!1 &878241407
 GameObject:
   m_ObjectHideFlags: 0
@@ -667,8 +670,7 @@ Transform:
   m_LocalPosition: {x: 0.35356, y: 1.7, z: 0.35356}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1159682750}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &878241412
@@ -1040,12 +1042,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1159682747}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.35356, y: 0.89999986, z: -10.35356}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.6, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 878241411}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1159682751
 MonoBehaviour:
@@ -1433,10 +1435,12 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 1159682750}
   - {fileID: 1040001335}
   - {fileID: 50249161}
   - {fileID: 955592726}
   - {fileID: 878241411}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   - {fileID: 107502043}
   - {fileID: 409483510}
@@ -1456,3 +1460,5 @@ SceneRoots:
   - {fileID: 1232736921}
 >>>>>>> 96efafc3d8b8646c833579ea63e0b0db1f115add
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 59d19b3 (objects)
