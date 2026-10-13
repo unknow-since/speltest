@@ -442,6 +442,118 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &591444684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 591444688}
+  - component: {fileID: 591444687}
+  - component: {fileID: 591444686}
+  - component: {fileID: 591444685}
+  m_Layer: 0
+  m_Name: Sphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &591444685
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591444684}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &591444686
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591444684}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &591444687
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591444684}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &591444688
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591444684}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.09954, y: 6.2, z: 11.72896}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &878241407
 GameObject:
   m_ObjectHideFlags: 0
@@ -980,9 +1092,13 @@ MonoBehaviour:
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1 &1232736917
 =======
 --- !u!1 &1764789528
+>>>>>>> Stashed changes
+=======
+--- !u!1 &1232736917
 >>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
@@ -992,6 +1108,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
   - component: {fileID: 1232736921}
   - component: {fileID: 1232736920}
   - component: {fileID: 1232736919}
@@ -1005,6 +1124,7 @@ GameObject:
   m_IsActive: 1
 --- !u!136 &1232736918
 CapsuleCollider:
+<<<<<<< Updated upstream
 =======
   - component: {fileID: 1764789531}
   - component: {fileID: 1764789530}
@@ -1019,14 +1139,20 @@ CapsuleCollider:
 --- !u!154 &1764789529
 TerrainCollider:
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 1232736917}
 =======
   m_GameObject: {fileID: 1764789528}
+>>>>>>> Stashed changes
+=======
+  m_GameObject: {fileID: 1232736917}
 >>>>>>> Stashed changes
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -1037,6 +1163,9 @@ TerrainCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -1047,6 +1176,7 @@ TerrainCollider:
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!23 &1232736919
 MeshRenderer:
+<<<<<<< Updated upstream
 =======
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -1056,11 +1186,16 @@ MeshRenderer:
 --- !u!218 &1764789530
 Terrain:
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
   m_GameObject: {fileID: 1232736917}
   m_Enabled: 1
   m_CastShadows: 1
@@ -1113,6 +1248,7 @@ MeshFilter:
   m_GameObject: {fileID: 1232736917}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1232736921
+<<<<<<< Updated upstream
 =======
   m_GameObject: {fileID: 1764789528}
   m_Enabled: 1
@@ -1151,11 +1287,14 @@ MeshFilter:
   m_TreeMotionVectorModeOverride: 3
 --- !u!4 &1764789531
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   m_GameObject: {fileID: 1232736917}
   serializedVersion: 2
@@ -1279,6 +1418,12 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.69452, y: 6.4, z: 15.78333}
+=======
+  m_GameObject: {fileID: 1232736917}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.55, y: 6.53, z: 5.1}
+>>>>>>> Stashed changes
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1295,6 +1440,7 @@ SceneRoots:
 <<<<<<< Updated upstream
   - {fileID: 107502043}
   - {fileID: 409483510}
+<<<<<<< Updated upstream
   - {fileID: 1232736921}
 <<<<<<< HEAD
 =======
@@ -1303,3 +1449,10 @@ SceneRoots:
 =======
   - {fileID: 1869276413}
 >>>>>>> 855279e33117bbb7c29e9dc419948a7f989b3627
+=======
+<<<<<<< HEAD
+  - {fileID: 591444688}
+=======
+  - {fileID: 1232736921}
+>>>>>>> 96efafc3d8b8646c833579ea63e0b0db1f115add
+>>>>>>> Stashed changes
